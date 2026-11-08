@@ -1,0 +1,23 @@
+[project]
+name = "local-ai-lab"
+version = "0.1.0"
+description = "A ChatGPT-style AI system built from scratch to learn LLM internals, running fully offline"
+readme = "README.md"
+authors = [
+    { name = "Chintan", email = "23287014+cajmera99@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+local-ai-lab = "local_ai_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]

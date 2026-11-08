@@ -1,0 +1,22 @@
+# Model files (large)
+models/
+*.gguf
+*.safetensors
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and private data
+.env
+*.db
+*.sqlite
+data/
+
+# Local notes for the AI assistant
+HANDOFF.md
+
+# macOS
+.DS_Store
